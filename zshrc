@@ -1,6 +1,6 @@
-alias dup="cd /home/evans/docker ; docker-compose up -d --remove-orphans"
-alias ddown="cd /home/evans/docker ; docker-compose down --remove-orphans"
-alias drestart="docker-compose -f /home/evans/docker/docker-compose.yml restart"
+alias dup="cd ~/docker ; docker-compose up -d --remove-orphans"
+alias ddown="cd ~/docker ; docker-compose down --remove-orphans"
+alias drestart="docker-compose -f ~/docker/docker-compose.yml restart"
 alias dlogs='docker-compose logs -tf --tail="150"'
 alias zl="zfs list -o name,used,avail,refer,mountpoint,encryption,keylocation,keyformat"
 
