@@ -3,6 +3,7 @@ alias ddown="cd ~/docker ; docker-compose down --remove-orphans"
 alias drestart="docker-compose -f ~/docker/docker-compose.yml restart"
 alias dlogs='docker-compose logs -tf --tail="150"'
 alias zl="zfs list -o name,used,avail,refer,mountpoint,encryption,keylocation,keyformat"
+alias autorestic="docker-compose -f ~/docker/docker-compose.yml run autorestic autorestic"
 
 export EDITOR=vim
 
